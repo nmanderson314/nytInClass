@@ -1,0 +1,18 @@
+/* font-family: 'Francois One', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif; */
+
+.display-4 {
+    color: whitesmoke;
+    font-family: 'Francois One', sans-serif;
+    
+}
+
+.form-group {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+#search-button {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: whitesmoke;
+}

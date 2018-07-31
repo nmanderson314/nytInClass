@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Francois+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid bg-dark  w-100 text-center">
+            <div class="container">
+                <h1 class="display-4">New York Times Search</h1>
+
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="col">
+            <div class="form-group">
+                <label for="formGroupExampleInput">Search Terms:</label>
+                <input type="text" class="form-control" id="search-terms">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Number of Records to Retrieve:</label>
+                <input type="text" class="form-control" id="records">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Start Year (Optional):</label>
+                <input type="text" class="form-control" id="start-year">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">End year (Optional):</label>
+                <input type="text" class="form-control" id="end-year">
+            </div>
+            <button type="button" class="btn bg-dark" id="search-button">Search</button>
+
+        </div>
+        </div>
+        </div>
+        </div>
+    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="top-articles">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
