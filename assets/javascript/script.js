@@ -1,12 +1,23 @@
-$('#').on("click", function(event){
+$('#search-button').on("click", function(event){
 
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
     var search = $('#search-terms').val();
+    console.log(search);
     var limit = $('#records').val();
-    var startYear = $('#start-year').val() + "0101";
+    console.log(limit);
+
+    var startYear = $('#start-year').val();
+    
+    console.log(startYear);
+
     // add 0101
-    var endYear = $('#end-year').val() + "1231";
+    var endYear = $('#end-year').val();
+    if (endYear){
+        endYear += "1231";
+    };
+    console.log(endYear);
+
     //add 1231
 
     $.ajax({
